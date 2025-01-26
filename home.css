@@ -1,0 +1,227 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7e7e7e;
+  scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+.form-section,
+.about-section,
+.home-section {
+  padding: 4rem 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4rem;
+}
+
+.form-section{
+ padding-top: 6rem;
+ padding-bottom: 6rem;
+}
+
+.about-section{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.btn-track {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.btn-track:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.tracking-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  cursor: pointer;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: #495057 !important;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #0048b5;
+    color: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #0d6efd;
+  color: #ffffff !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  color: #e9ecef;
+}
+
+.btn-custom {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.content-section {
+  padding: 2rem 0;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card2{
+    padding-bottom: 3.4rem;
+}
+
+
+
+footer {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 1rem 0;
+  text-align: center;
+}
+.carousel-item {
+  transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+}
+
+.section_04 {
+  /* This property specifies that the background image should cover the entire area of the element's background, while maintaining its aspect ratio.  */
+  background-size: cover;
+  /* This property ensures that the background image is not repeated or tiled. It will only be displayed once in the background of the element. */
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.section_04 div {
+  background: #000000a6;
+}
+.img_new {
+  padding: 15%;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.nav-item:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+/* /////////////////////// */
+
+/* Restrictions Section */
+.restrictions {
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.restrictions .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card Style */
+.restriction-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restriction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+  font-size: 36px;
+  color: #0052cc;
+  margin-bottom: 15px;
+}
+
+.restriction-card h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.restriction-card p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.restriction-card ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #444;
+}
+
+.restriction-card ul li {
+  margin-bottom: 8px;
+}
