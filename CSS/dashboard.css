@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: linear-gradient(90deg,rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%); */
+    font-family: 'poppins',sans-serif;
+}
+
+.card {
+  margin-top: 90px;
+  background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+  border-radius: 20px;
+}
+
+.card-body {
+  background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.9) !important;
+  border-radius: 20px;
+}
+
+.table-custom {
+  background: transparent;
+  color: white;
+}
+
+.table-custom th,
+.table-custom td {
+  background: transparent !important;
+  color: rgb(255, 255, 255) !important;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.table-custom th {
+  font-weight: 600;
+}
+
+.table-custom tr:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.ship_table {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.contact_table {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.bg-light-color{
+  background-color: #0048b5;
+}
+
+
+/* Styles for navigation bar */
+.navbar {
+  background: linear-gradient(90deg,rgb(222, 222, 222) 0%, rgb(208, 255, 255) 35%, rgb(204, 204, 204) 100%);
+  opacity: 98%;
+}
+
+.navbar-nav .nav-link {
+    cursor: pointer;
+  }
+  
+  section {
+    scroll-margin-top: 100px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000 !important;
+    font-style: italic;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #495057 !important;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link.active {
+    background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+    color: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+    color: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  }
+
+  .nav-item:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }

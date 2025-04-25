@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'poppins',sans-serif;
+}
+
+form{
+    background: linear-gradient(90deg,rgb(222, 222, 222) 0%, rgb(208, 255, 255) 35%, rgb(204, 204, 204) 100%);
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 110px;
+    margin-bottom: 40px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.5);
+}
+
+.alert{
+  background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+  color: #ffffff;
+}
+
+.popup{
+    width: 30%;
+    background-color: white;
+    /* padding: 50px; */
+    border-radius: 20px;
+    /* margin-top: 450px; */
+    box-shadow: 0 20px 35px rgba(0,0,0,0.9);
+    /* margin-left: 200px; */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 20px 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+.open_popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.card{
+    background: linear-gradient(90deg,rgb(222, 222, 222) 0%, rgb(208, 255, 255) 35%, rgb(204, 204, 204) 100%);
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.5);
+}
+
+.table-custom {
+  background: transparent;
+  color: white;
+}
+
+.table-custom th,
+.table-custom td {
+  background: transparent !important;
+  color: rgb(0, 0, 0) !important;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.table-custom th {
+  font-weight: 600;
+}
+
+.table-custom tr:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.add_details_btn {
+    width: 50%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+    background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.add_details_btn:hover{
+    background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.action_btn{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.update_btn{
+  background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+}
+
+.delete_btn{
+  background: linear-gradient(90deg,rgb(180, 0, 0) 0%, rgb(68, 68, 68) 35%, rgb(0, 0, 0) 100%);
+  color: #ffffff;
+}
+
+.action_btn:hover{
+    background-color: #6e4801;
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none !important;
+    border:1px solid;
+    border-bottom: 3px solid;
+}
+
+h4{
+    font-size: 2rem !important;
+    font-weight: 700;
+}
+
+.form-label{
+    font-weight: 500 !important;
+}
+
+@media only screen and (max-width:500px){
+    form{
+        width: 100% !important;
+    }
+}
+
+/* Styles for navigation bar */
+.navbar {
+  background: linear-gradient(90deg,rgb(222, 222, 222) 0%, rgb(208, 255, 255) 35%, rgb(204, 204, 204) 100%);
+  opacity: 98%;
+}
+
+.navbar-nav .nav-link {
+    cursor: pointer;
+  }
+  
+  section {
+    scroll-margin-top: 100px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000 !important;
+    font-style: italic;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #495057 !important;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link.active {
+    background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+    color: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background: linear-gradient(90deg,rgb(59, 59, 59) 0%, rgb(14, 154, 154) 35%, rgb(0, 39, 47) 100%);
+    color: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  }
+
+  .nav-item:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
